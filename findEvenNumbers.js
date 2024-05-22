@@ -1,7 +1,3 @@
-export const EvenNumber =(num)=>{
- if(num%2==0){
-  return "juft son"
- }else{
-  return "toq son"
- }
+export const findEvenNumbers = (arr) => {
+ return arr.filter(num => num % 2 === 0);
 }
